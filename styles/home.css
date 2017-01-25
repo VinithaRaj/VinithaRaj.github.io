@@ -1,0 +1,113 @@
+.v-homebackground{
+background:url("file:///Users/vinitharaj/Documents/web-development-training/RecipesAssignment/images/336506.jpg") no-repeat center;
+background-size:100vw 100vh ;
+}
+.v-navdrop{
+display: inline-block;
+}
+.v-navdrop:hover .v-navdrop-content{
+display: block;
+color:red;
+}
+.v-navdrop-content{
+display:none;
+background-color: transparent;
+color:green;
+padding:15px;
+list-style-type:none;
+}
+.v-otherbackground{
+background:url("file:///Users/vinitharaj/Documents/web-development-training/RecipesAssignment/images/33004424-Colorful-healthy-food-seamless-pattern-background-for-organic-vegetables-menu-or-salad-bar-EPS10-vec-Stock-Vector.jpg")repeat;
+background-size:100px 100px;
+background-opacity
+}
+.v-contbackground{
+background:white;
+background-size:100vw 100vh;
+}
+.v-list{
+background: #b30000;
+
+color:white;
+border-radius:25px;
+font-size: 30px;
+}
+
+ul{
+list-style-type:none;
+padding:10px;
+width:100%;
+background-color:#262626;
+display:inline-block;
+float:left;
+}
+
+.v-body-content{
+background:white;
+color: #b30000;
+border-radius:25px;
+font-size: 60px;
+}
+h1{
+background-color: #b30000;
+padding:10px;
+color:ivory;
+}
+
+.dropbtn, li a{
+display:inline-block;
+background-color:#262626;
+text-decoration:none;
+border:none;
+}
+
+li a:hover,dropdown:hover dropbtn{
+color:white;
+text-decoration:none;
+border:none;
+}
+
+.dropdown{
+display:block;
+}
+
+.drop-content{
+padding:0px;
+background-color:white;
+color:black;
+display:none;
+}
+
+.dropdown:hover .drop-content{
+display:inline-block;
+border:none;
+}
+
+td{
+width:200px;
+word-wrap:break-word;
+}
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #b30000;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.heading{
+color:white;
+font-size:50px;
+}
